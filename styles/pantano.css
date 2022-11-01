@@ -1,0 +1,21 @@
+p{
+    font-size: larger;
+}
+
+li{
+    font-size: large;
+}
+
+img{
+    border: 2px double rebeccapurple;
+    position: relative;
+    left: 20px;
+}
+
+#contenedor{
+    background-color: violet;
+}
+
+#titulo{
+    background-color: lightcoral;
+}

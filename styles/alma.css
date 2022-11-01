@@ -1,0 +1,38 @@
+.nombre{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.ataque{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#especial{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.imagen{
+    background-color: aquamarine;
+    align-content: right;
+    border: 2px solid coral;
+}
+
+#titulo{
+    background-color: yellowgreen;
+}
+
+#intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 3%;
+}
+
+#contenedor{
+    background-color: rosybrown;
+}

@@ -5,58 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medalla Alma</title>
+
+    <link rel="stylesheet" href="./styles/alma.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Montserrat:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1 align="center">Lista anidadad para obtener la Medalla Alma.</h1>
 
-    <p>Se presenta a continuación una lista de algunos de mis pokémon favoritos y dos de los ataques que pueden usar:</p>
+    <div class="container" id="contenedor">
+        <div class="row">
+            <div class="col-10">
+                <h1 align="center" id="titulo">Lista anidada para obtener la Medalla Alma</h1>
+                <p id="intro">Se presenta a continuación una lista de algunos de mis pokémon favoritos y dos de los ataques que pueden usar:</p>
 
     <ol>
-        <li>Gengar</li>
+        <li class="nombre">Gengar</li>
             <ul>
-                <li>Bola sombra</li>
-                <li>Embargo</li>
+                <li class="ataque">Bola sombra</li>
+                <li class="ataque">Embargo</li>
             </ul>
-        <img src="assets\Gengar.png" alt="Imagen donde se presenta al pokémon Gengar" width="250px">
+        <img src="assets\Gengar.png" alt="Imagen donde se presenta al pokémon Gengar" width="250px" class="imagen">
 
-        <li>Lapras</li>
+        <li class="nombre">Lapras</li>
             <ul>
-                <li>Surf</li>
-                <li>Rayo de hielo</li>
+                <li class="ataque">Surf</li>
+                <li class="ataque">Rayo de hielo</li>
             </ul>
-        <img src="assets\Lapras.png" alt="Imagen donde se presenta al pokémon Lapras" width="250px">
+        <img src="assets\Lapras.png" alt="Imagen donde se presenta al pokémon Lapras" width="250px" class="imagen">
 
-        <li>Torterra</li>
+        <li class="nombre">Torterra</li>
             <ul>
-                <li>Terremoto</li>
-                <li>Rayo solar</li>
+                <li class="ataque">Terremoto</li>
+                <li class="ataque">Rayo solar</li>
                     <ul>
-                        <li>Característica especial: es un ataque que se ejecuta en dos turnos</li>
+                        <li id="especial">Característica especial: es un ataque que se ejecuta en dos turnos</li>
                     </ul>
             </ul>
-        <img src="assets\Torterra.png" alt="Imagen donde se presenta al pokémon Torterra" width="250px">
+        <img src="assets\Torterra.png" alt="Imagen donde se presenta al pokémon Torterra" width="250px" class="imagen">
 
-        <li>Espeon</li>
+        <li class="nombre">Espeon</li>
             <ul>
-                <li>Confusión</li>
-                <li>Psíquico</li>
+                <li class="ataque">Confusión</li>
+                <li class="ataque">Psíquico</li>
             </ul>
-        <img src="assets\Espeon.png" alt="Imagen donde se presenta al pokémon Espeon" width="250px">
+        <img src="assets\Espeon.png" alt="Imagen donde se presenta al pokémon Espeon" width="250px" class="imagen">
 
-        <li>Mudkip</li>
+        <li class="nombre">Mudkip</li>
             <ul>
-                <li>Pistola agua</li>
-                <li>Bofetón lodo</li>
+                <li class="ataque">Pistola agua</li>
+                <li class="ataque">Bofetón lodo</li>
             </ul>
-        <img src="assets\Mudkip.png" alt="Imagen donde se presenta al pokémon Mudkip" width="250px">
+        <img src="assets\Mudkip.png" alt="Imagen donde se presenta al pokémon Mudkip" width="250px" class="imagen">
 
-        <li>Delphox</li>
+        <li class="nombre">Delphox</li>
             <ul>
-                <li>Llama embrujada</li>
-                <li>Psicorrayo</li>
+                <li class="ataque">Llama embrujada</li>
+                <li class="ataque">Psicorrayo</li>
             </ul>
-        <img src="assets\Delphox.png" alt="Imagen donde se presenta al pokémon Delphox" width="250px">
+        <img src="assets\Delphox.png" alt="Imagen donde se presenta al pokémon Delphox" width="250px" class="imagen">
     </ol>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 </html>

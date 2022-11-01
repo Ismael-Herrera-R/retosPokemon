@@ -1,0 +1,19 @@
+#contenedor{
+    background-color: aquamarine;
+}
+
+#titulo{
+    background-color: lightcoral;
+}
+
+.imagen{
+    background-color: orchid;
+    border: 2px solid orangered;
+    position: relative;
+    left: 50%;
+}
+
+.info{
+    font-size: large;
+    position: relative;
+}
